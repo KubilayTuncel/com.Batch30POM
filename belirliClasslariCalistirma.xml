@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="class calistirma">
+    <test name="farkli classlari calistirma">
+        <classes>
+            <class name="test.smokeTest.PositiveLoginTest"></class>
+            <class name="test.day13_POM.C01_Pages"></class>
+            <class name="test.day15_POM.C01_DriverClassKullanimi"></class>
+            <!-- eger testten sonra package secmezsem farkli packagelerde class lar ekleyebilirim-->
+        </classes>
+    </test>
+</suite>
